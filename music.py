@@ -4,7 +4,7 @@ import pandas as pd
 import seaborn as sns
 
 
-url = 'https://raw.githubusercontent.com/Data-Science-East-AFrica/Exploratory-Data-Analysis-Using-Python/main/train.csv'
+url = '/home/bipin/Codes/4th Sem/Data Retrival/dataset/songs.csv'
 train=pd.read_csv(url)
 
 # train.info()
@@ -14,4 +14,4 @@ train=pd.read_csv(url)
 # train.isnull()
 # train.shape()
 # print(train)
-print(sns.heatmap(train.isnull(),yticklabels=False,cbar=False,cmap='viridis'))
+print(train)
